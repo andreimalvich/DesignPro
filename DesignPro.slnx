@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="ButtonImageApp/ButtonImageApp.csproj" />
+  <Project Path="CircularProgressBar/CircularProgressBar.csproj" Id="a77e5138-f5aa-4df2-b385-887e64668ddc" />
   <Project Path="PopupApp/PopupApp.csproj" Id="ce0579a1-b009-47b4-9272-84d1cfd24278" />
   <Project Path="RoundedButtonDemo/RoundedButtonDemo.csproj" />
   <Project Path="RoundedCornerForm/RoundedCornerForm.csproj" />
