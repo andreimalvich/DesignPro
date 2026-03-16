@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ButtonImageApp/ButtonImageApp.csproj" />
+  <Project Path="RoundedButtonDemo/RoundedButtonDemo.csproj" />
+  <Project Path="DesignPro/RoundedCornerForm/RoundedCornerForm.csproj" />
+</Solution>
