@@ -1,7 +1,9 @@
 <Solution>
   <Project Path="ButtonImageApp/ButtonImageApp.csproj" />
   <Project Path="CircularProgressBar/CircularProgressBar.csproj" Id="a77e5138-f5aa-4df2-b385-887e64668ddc" />
+  <Project Path="CircularProgressBarNew/CircularProgressBarNew.csproj" Id="75859078-9f77-44a2-b9ca-dd40b3552e32" />
   <Project Path="PopupApp/PopupApp.csproj" Id="ce0579a1-b009-47b4-9272-84d1cfd24278" />
   <Project Path="RoundedButtonDemo/RoundedButtonDemo.csproj" />
   <Project Path="RoundedCornerForm/RoundedCornerForm.csproj" />
+  <Project Path="WPFControlVisibilityApp/WPFControlVisibilityApp.csproj" Id="cc934f86-e942-40b7-be6a-48f20142a4a0" />
 </Solution>

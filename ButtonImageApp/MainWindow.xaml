@@ -12,7 +12,7 @@
 
     <Window.Resources>
         
-        <!--Добавляем картинки на MouseOver событие-->
+        <!--Добавляем картинки для MouseOver событие-->
 
         <ImageBrush x:Key="facebook_icon" ImageSource="/Assets/facebook_hover.png" Stretch="None"/>
         <ImageBrush x:Key="twitter_icon" ImageSource="/Assets/twitter_hover.png" Stretch="None"/>
@@ -326,22 +326,34 @@
             <ColumnDefinition Width="150"/>
         </Grid.ColumnDefinitions>
         <!--4 кнопки-->
-        <Button Style="{DynamicResource FaceBookBtnStyle}" Height="150" Width="150" Grid.Row="1" Grid.Column="1" BorderThickness="0">
+        <Button Style="{DynamicResource FaceBookBtnStyle}" 
+                Height="150" Width="150" 
+                Grid.Row="1" Grid.Column="1" 
+                BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="/Assets/facebook_default.png" Stretch="None"/>
             </Button.Background>
         </Button>
-        <Button Style="{DynamicResource TwitterBtnStyle}" Height="150" Width="150" Grid.Row="1" Grid.Column="2" BorderThickness="0">
+        <Button Style="{DynamicResource TwitterBtnStyle}" 
+                Height="150" Width="150" 
+                Grid.Row="1" Grid.Column="2" 
+                BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="/Assets/twitter_default.png" Stretch="None"/>
             </Button.Background>
         </Button>
-        <Button Style="{DynamicResource InstagramBtnStyle}" Height="150" Width="150" Grid.Row="1" Grid.Column="3" BorderThickness="0">
+        <Button Style="{DynamicResource InstagramBtnStyle}" 
+                Height="150" Width="150" Grid.Row="1" 
+                Grid.Column="3" 
+                BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="/Assets/instagram_default.png" Stretch="None"/>
             </Button.Background>
         </Button>
-        <Button Style="{DynamicResource GoogleBtnStyle}" Height="150" Width="150" Grid.Row="1" Grid.Column="4" BorderThickness="0">
+        <Button Style="{DynamicResource GoogleBtnStyle}" 
+                Height="150" Width="150" 
+                Grid.Row="1" Grid.Column="4" 
+                BorderThickness="0">
             <Button.Background>
                 <ImageBrush ImageSource="/Assets/google_default.png" Stretch="None"/>
             </Button.Background>
@@ -349,14 +361,15 @@
 
 <!--Кнопка закрытия окна-->
         <Canvas>
-            <Button Style="{DynamicResource CloseBtnStyle}" Height="75" Width="75" Canvas.Left="925" BorderThickness="0" Click="Button_Click">
+            <Button Style="{DynamicResource CloseBtnStyle}" 
+                    Height="75" Width="75" 
+                    Canvas.Left="925" BorderThickness="0" 
+                    Click="Button_Click">
                 <Button.Background>
-                    <ImageBrush ImageSource="/Assets/close_default.png" Stretch="None"/>
-                    
+                    <ImageBrush ImageSource="/Assets/close_default.png" Stretch="None"/>                    
                 </Button.Background>
-
             </Button>
-
         </Canvas>
+        
     </Grid>
 </Window>
