@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Fonts\Rubik-Medium.ttf" />
+    <None Remove="Assets\Fonts\Rubik-Regular.ttf" />
+    <None Remove="Assets\Images\customer_page.png" />
+    <None Remove="Assets\Images\home_page.png" />
+    <None Remove="Assets\Images\img_customer.png" />
+    <None Remove="Assets\Images\img_home.png" />
+    <None Remove="Assets\Images\img_order.png" />
+    <None Remove="Assets\Images\img_product.png" />
+    <None Remove="Assets\Images\img_setting.png" />
+    <None Remove="Assets\Images\img_shipment.png" />
+    <None Remove="Assets\Images\img_transaction.png" />
+    <None Remove="Assets\Images\order_page.png" />
+    <None Remove="Assets\Images\product_page.png" />
+    <None Remove="Assets\Images\setting_page.png" />
+    <None Remove="Assets\Images\shipment_page.png" />
+    <None Remove="Assets\Images\shutdown_def.png" />
+    <None Remove="Assets\Images\shutdown_mo.png" />
+    <None Remove="Assets\Images\transaction_page.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Fonts\Rubik-Medium.ttf" />
+    <Resource Include="Assets\Fonts\Rubik-Regular.ttf" />
+    <Resource Include="Assets\Images\customer_page.png" />
+    <Resource Include="Assets\Images\home_page.png" />
+    <Resource Include="Assets\Images\img_customer.png" />
+    <Resource Include="Assets\Images\img_home.png" />
+    <Resource Include="Assets\Images\img_order.png" />
+    <Resource Include="Assets\Images\img_product.png" />
+    <Resource Include="Assets\Images\img_setting.png" />
+    <Resource Include="Assets\Images\img_shipment.png" />
+    <Resource Include="Assets\Images\img_transaction.png" />
+    <Resource Include="Assets\Images\order_page.png" />
+    <Resource Include="Assets\Images\product_page.png" />
+    <Resource Include="Assets\Images\setting_page.png" />
+    <Resource Include="Assets\Images\shipment_page.png" />
+    <Resource Include="Assets\Images\shutdown_def.png" />
+    <Resource Include="Assets\Images\shutdown_mo.png" />
+    <Resource Include="Assets\Images\transaction_page.png" />
+  </ItemGroup>
+
+</Project>
